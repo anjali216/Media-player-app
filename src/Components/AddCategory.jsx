@@ -52,7 +52,7 @@ function AddCategory() {
   const handleDelete = async(id)=>{
     const response = await deleteCategoryAPI(id)
     console.log(response);
-    setDeleteStatus(response)
+   setDeleteStatus(response)
     
   }
 
@@ -97,11 +97,11 @@ function AddCategory() {
             <div onDragOver={e=>dragOver(e)} 
             onDrop={(e)=>videoDrop(e,item.id)} className="col m-3 p-4 border border-light d-flex justify-content-between">
           <p>{item.categoryName}</p>
-          <i onClick={()=>handleDelete(item.id)} className='fa-solid fa-trash text-danger'></i>
+          <i onClick={()=>handleDelete(item.id)} className=" m-0 p-1  fa-solid fa-trash  text-danger "></i>
           <div className='row' style={{width:'100%'}}>
           <div className="col" >
           {item.allVideos && item.allVideos.map((data)=>(
-          <VideoCard displayVideo={data} />
+<VideoCard displayVideo={data} />
           ))}
           </div>
           </div>
@@ -123,7 +123,7 @@ function AddCategory() {
           <Modal.Title>Add Category</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-         <input type="text" onChange={(e) => setCategoryName(e.target.value)}  placeholder='Category Name' className='form-control' />
+        <input type="text" onChange={(e) => setCategoryName(e.target.value)}  placeholder='Category Name' className='form-control' />
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
