@@ -32,7 +32,7 @@ function LandingPage() {
           <Card  style={{width:'350px'}}>
       <Card.Img variant="top" src="https://i.pinimg.com/originals/a7/f2/1e/a7f21e0529977212593b19528dab896a.gif" width={'200px'} height={'300px'} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Managing Videos</Card.Title>
         <Card.Text>
           Some quick example text to build on the card title and make up the
           bulk of the cards content.
@@ -45,7 +45,7 @@ function LandingPage() {
           <Card style={{width:'350px'}}>
       <Card.Img variant="top" src= "https://cdn.dribbble.com/users/401212/screenshots/2933339/musicplayer_2_dr.gif" width={'200px'} height={'300px'} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Categorize Videos</Card.Title>
         <Card.Text>
           Some quick example text to build on the card title and make up the
           bulk of the cards content.
@@ -58,7 +58,7 @@ function LandingPage() {
           <Card style={{width:'350px'}}>
       <Card.Img variant="top" src="https://i.pinimg.com/originals/ec/59/f2/ec59f2f5cfbe75e212eb89d477ccf8d2.gif" width={'200px'} height={'300px'} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Watch History</Card.Title>
         <Card.Text>
           Some quick example text to build on the card title and make up the
           bulk of the cards content.
