@@ -78,7 +78,10 @@ function LandingPage() {
           <p style={{textAlign:'justify'}}> <strong>Play Everything </strong>: Amet consectetur adipisicing elit. Autem veritatis totam tempore expedita! Quae quam, commodi dolorum iste unde atque alias debitis voluptates nesciunt</p>
           </Col>
           <Col>
-          <img src="https://i.pinimg.com/originals/e4/63/4d/e4634da841c0ed906e77cab9b6b733ef.gif " alt="" width={'450px'}/>
+          {/* <img src="https://youtu.be/rFgS10V8908?si=vPwFYv9VeE2GP0oE" alt="" width={'450px'}/> */}
+        
+         <a href="https://youtu.be/rFgS10V8908?si=tVN3QSOk6n2mrxsR" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/rFgS10V8908/maxresdefault.jpg" alt="" width={'600px'} /></a>
+
           </Col>
         </Row>
       </section>
